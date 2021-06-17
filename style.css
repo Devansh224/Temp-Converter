@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(135deg, yellow, orange, orange, orange, #da680a, rgb(233, 74, 0), red)
+}
+
+.converter {
+    user-select: none;
+    background-color: white;
+    background: linear-gradient(45deg, white, whitesmoke,  #d4c7c7, #000000);
+    padding: 100px;
+}
+
+.conver {
+    padding: 20px;
+}
+
+.celsius {
+    padding: 20px;
+    text-align: center;
+}
+
+.fah {
+    text-align: center;
+    padding: 20px;
+}
